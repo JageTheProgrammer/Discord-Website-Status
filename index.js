@@ -3,6 +3,7 @@ const client = new Discord.Client();
 const { bot_token, website_url, status_channel_id, guild_id } = require('./config.json');
 const isUp = require('is-up');
 const schedule = require('node-schedule');
+require("dotenv").config();
 
 const websiteCheck = async function(){
     // Get the channel that we want to edit from config.json
