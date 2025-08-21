@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const { bot_token, website_url, status_channel_id, guild_id } = require('./config.json');
+const { website_url, status_channel_id, guild_id } = require('./config.json');
 const isUp = require('is-up');
 const schedule = require('node-schedule');
 require("dotenv").config();
